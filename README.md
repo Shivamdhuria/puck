@@ -26,8 +26,7 @@ allprojects {
 And add a dependency code to your **module**'s `build.gradle` file.
 ```gradle
 dependencies {
-//pending
-    implementation 
+    implementation 'com.github.Shivamdhuria:puck:Version'
 }
 ```
 
