@@ -99,7 +99,7 @@ Currently Puck supports three behaviours
 ### FreeForm
 Freeform makes Composable draggable anywhere in the screen. If the user drags a composable out of screen area, it is coerced within the bounds of the screen.
 <p align="start">
-<img src="https://github.com/Shivamdhuria/puck/blob/master/assets/freeform.gif" width="18%"/>
+<img src="https://github.com/Shivamdhuria/puck/blob/main/assets/freeform.gif" width="18%"/>
 </p>
 
 For adding Freeform behaviour to any composable, do - 
@@ -116,7 +116,7 @@ FloatingActionButton(onClick = {},
 ### Sticky
 You can also make Composables stick to the edges or corners of the screen. Simple flick the Composable in the direction you want it to stick and it will follow the trajectory and stick there. To use stick you need to pass a parameter (EDGES, CORNERS,VERTICAL EDGsE HORIZONATL EDGES). Puck will automatically make the set parameter "sticky".
 <p align="start">
-<img src="https://github.com/Shivamdhuria/puck/blob/master/assets/stickNew.gif" width="18%"/>
+<img src="https://github.com/Shivamdhuria/puck/blob/main/assets/stickNew.gif" width="18%"/>
 </p>
 
 ```kotlin
@@ -135,7 +135,7 @@ We can define gravity points with center and radius. Any composable that falls w
 Note: The circle isn't actualy drawn as above while using puck. I have shown the circle only for demonstration purposes. 
 
 <p align="start">
-<img src="https://github.com/Shivamdhuria/puck/blob/master/assets/gravityN.gif" width="18%"/>
+<img src="https://github.com/Shivamdhuria/puck/blob/main/assets/gravityN.gif" width="18%"/>
 </p>
 
 ```kotlin
@@ -155,7 +155,7 @@ FloatingActionButton(onClick = {},
 ## Attributes
 - isPointsTowardsCenter - Currently this only works for Sticky(Edges) mode. Composable will always point towards center by using rotation animation. When a composable is dragged, the rotation value is set to default (0f), after the drag ends and the commposable sticks to any of the edges, the composable rotates according and points towards center. 
 <p align="center">
-<img src="https://github.com/Shivamdhuria/puck/blob/master/assets/towards%20center.gif" width="18%"/>
+<img src="https://github.com/Shivamdhuria/puck/blob/main/assets/towards%20center.gif" width="18%"/>
 </p>
 
 - animationDuration - This is time taken in milli seconds for the drag animation. The lesser the time the quicker the animation. (Note: When the behaviour is set to Freeform, a composable is draggable without any animation.)
