@@ -5,11 +5,11 @@ Make Composables Draggable.
 </p>
 </br>
 <p align="center">
-<img src="https://github.com/Shivamdhuria/puck/blob/master/assets/gravity.gif" width="15.3%"/>
-<img src="https://github.com/Shivamdhuria/puck/blob/master/assets/freeform.gif" width="17.5%"/>
-<img src="https://github.com/Shivamdhuria/puck/blob/master/assets/all.gif" width="17.5%"/>
-<img src="https://github.com/Shivamdhuria/puck/blob/master/assets/stickNew.gif" width="16.8%"/>
-<img src="https://github.com/Shivamdhuria/puck/blob/master/assets/towards center.gif" width="18%"/>
+<img src="https://github.com/Shivamdhuria/puck/blob/main/assets/gravity.gif" width="15.3%"/>
+<img src="https://github.com/Shivamdhuria/puck/blob/main/assets/freeform.gif" width="17.5%"/>
+<img src="https://github.com/Shivamdhuria/puck/blob/main/assets/all.gif" width="17.5%"/>
+<img src="https://github.com/Shivamdhuria/puck/blob/main/assets/stickNew.gif" width="16.8%"/>
+<img src="https://github.com/Shivamdhuria/puck/blob/main/assets/towards center.gif" width="18%"/>
 </p>
 
 ## Including in your project
