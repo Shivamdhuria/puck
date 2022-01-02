@@ -13,7 +13,7 @@ Make Composables Draggable.
 </p>
 
 ## Including in your project
-[![Maven Central](https://img.shields.io/maven-central/v/com.github.skydoves/balloon.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22com.github.skydoves%22%20AND%20a:%22balloon%22)
+[![](https://jitpack.io/v/Shivamdhuria/puck.svg)](https://jitpack.io/#Shivamdhuria/puck/0.0.1)
 ### Gradle 
 Add below codes to your **root** `build.gradle` file (not your module build.gradle file).
 ```Gradle
