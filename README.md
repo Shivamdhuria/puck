@@ -31,7 +31,6 @@ dependencies {
 ```
 
 ## Usage
-//Currently just copy the library module to your project. haven't uploaded on jitpack yet
 ```kotlin
         setContent {
             // this keeps parents size
