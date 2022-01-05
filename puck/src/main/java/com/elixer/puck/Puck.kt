@@ -51,8 +51,8 @@ fun Modifier.puck(
     val dragSlope = remember { mutableStateOf(0f) }
     val dragOffset = remember { mutableStateOf(Offset(0f, 0f)) }
 
-    val offsetYAnimatable = remember { Animatable(offset.x) }
-    val offsetXAnimatable = remember { Animatable(offset.y) }
+    val offsetYAnimatable = remember { Animatable(offset.y) }
+    val offsetXAnimatable = remember { Animatable(offset.x) }
     val rotationAnimatable = remember { Animatable(0f) }
 
     val scale = animateFloatAsState(if (focused.value) focusedSizeMultiplier else 1f)
